@@ -18,12 +18,6 @@
         </router-link>
 
         <template v-if="token">
-          <div class="ui list">
-            <a class="item"><router-link to="/abount">Conocenos</router-link></a>
-            <a class="item"><router-link to="/abount">Historias</router-link></a>
-            <a class="item"><router-link to="/abount">Procesos</router-link></a>
-            <a class="item"><router-link to="/abount">Otros productos</router-link></a>
-          </div>
 
           <span class="ui item cart">
             <i class="shopping cart icon" @click="openCart"></i>
